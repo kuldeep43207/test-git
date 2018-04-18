@@ -1,0 +1,709 @@
+#banner {
+	&:before {
+		bottom: -183px;
+		height: 160px;
+		display:none;
+	}
+	article {
+	  position: relative;
+	  z-index: 9;
+	}	
+}
+.in-touch-div {
+	.transformed-div-down {
+	  height: 144px !important;
+	  transform: rotate(4deg);
+	  background: #fff;
+	  position: absolute;
+	  left: -2px;
+	  top: 74%;
+	  right: 0;
+	  width: 103%;
+	  bottom: 0px;
+	  background: #fff;
+	  z-index: -1;
+	}	
+}
+#drupalcon {
+	position: relative;
+	z-index:8;
+	.drupalcon-row {
+		h1 {
+			margin-top:0px;
+		}
+	}
+	.transformed-div-down {
+	  height: 143px;
+	  transform: rotate(4deg);
+	  background: #fff;
+	  position: absolute;
+	  left: -2px;
+	  top: 75%;
+	  right: 0;
+	  width: 103%;
+	  bottom: 0px;
+	  background: #fff;
+	  z-index: -1;
+	}
+}
+#drupalcon-img-bg {
+  padding-top: 3.5rem;
+	&:before {
+		display:none;
+	}
+	&:after {
+		display:none;
+	}
+}
+.drupalcon-col {
+	z-index:0;
+}	
+#banner {
+	.get-started {
+		.dropdown-pane {
+			z-index: 99999999;
+		}
+	}
+}
+#client {
+	position: relative;
+	z-index: 1;
+	.client-cols {
+		position: relative;
+	}
+	p {
+		margin-bottom:30px;
+	}	
+}
+#flagship {
+	position: relative;
+	&:before {
+		display:none;
+	}
+	&:after {
+		display:none;
+	}
+	.transformed-div-up {
+		height: 141px;
+		transform: rotate(-4deg);
+		background: #fff;
+		position: absolute;
+		left: -8px;
+		top: -73px;
+		right: 0;
+		width: 103%;
+		z-index: 1;
+	}
+	.transformed-div-down {
+		height: 140px;
+		transform: rotate(4deg);
+		background: #fff;
+		position: absolute;
+		left: -8px;
+		top: 94%;
+		right: 0;
+		width: 103%;
+		bottom: 0px;
+		background: #fff;
+		z-index: 1;
+	}	
+}
+#move-drupal {
+	padding: 45px 0px 45px 0px;
+	@media only screen and (max-width: 767px) {
+		margin-top: 0px;
+		padding: 30px 0px 15px 0px;
+	}
+}
+#explore-drupal {
+	padding: 30px 0px 45px 0px;
+}
+#in-touch {
+	padding-top: 165px;
+	position:relative;
+	padding-bottom: 90px;
+	&:before {
+		display:none;
+	}
+	&:after {
+		display:none;
+	}
+	.transformed-div-up {
+		height: 141px;
+		transform: rotate(-4deg);
+		background: #fff;
+		position: absolute;
+		left: -8px;
+		top: -73px;
+		right: 0;
+		width: 103%;
+		z-index: 1;
+	}
+	.transformed-div-down {
+		height: 140px;
+		transform: rotate(4deg);
+		background: #fff;
+		position: absolute;
+		left: -8px;
+		top: 91%;
+		right: 0;
+		width: 103%;
+		bottom: 0px;
+		background: #fff;
+		z-index: 1;
+	}		
+}
+#drupal-for {
+	padding-top: 165px;
+	padding-bottom: 180px;
+	position:relative;
+	&:before {
+		display:none;
+	}
+	&:after {
+		display:none;
+	}	
+	.transformed-div-up {
+		height: 141px;
+		transform: rotate(-4deg);
+		background: #fff;
+		position: absolute;
+		left: -8px;
+		top: -73px;
+		right: 0;
+		width: 103%;
+		z-index: 1;
+	}	
+	.transformed-div-down {
+		height: 140px;
+		transform: rotate(4deg);
+		background: #fff;
+		position: absolute;
+		left: -8px;
+		top: 92%;
+		right: 0;
+		width: 103%;
+		bottom: 0px;
+		background: #fff;
+		z-index: 1;
+	}
+}
+#team {
+	margin-bottom: 0px;
+	padding-top: 30px;
+	position:relative;
+	.transformed-div-down {
+		height: 140px;
+		transform: rotate(4deg);
+		background: #fff;
+		position: absolute;
+		left: -6px;
+		top: 93%;
+		right: 0;
+		width: 103%;
+		bottom: 0px;
+		background: #fff;
+		z-index: 1;
+	}
+	.team {
+		margin-bottom: 45px;
+	}
+	.team_member {
+		img {
+			@media only screen and (max-width: 767px) and (min-width: 640px) {
+				width:160px;
+			}
+		}	
+	}
+}
+.in-touch-div {
+	padding-bottom: 175px !important;
+	position:relative;
+	&:after{
+		display:none;
+	}
+	.transformed-div-down {
+		height: 140px;
+		transform: rotate(4deg);
+		background: #fff;
+		position: absolute;
+		left: -6px;
+		top: 94%;
+		right: 0;
+		width: 103%;
+		bottom: 0px;
+		background: #fff;
+		z-index: 1;
+	}
+	.get_in {
+		h2 {
+			margin-bottom: 0px !important;
+		}	
+	}	
+}
+#page-contact{
+	margin-top: 15px;
+	margin-bottom:0px;
+}
+#footer{
+	&:before{
+		display:none;
+	}	
+	article {
+		position: relative;
+		z-index: 1;
+		padding-top: 125px;
+	}
+	.transformed-div-up {
+		height: 141px;
+		transform: rotate(-4deg);
+		background: #fff;
+		position: absolute;
+		left: -6px;
+		top: -73px;
+		right: 0;
+		width: 103%;
+		z-index: 1;
+	}
+}
+.transformed-div-up {
+	height: 141px;
+	transform: rotate(-4deg);
+	background: #fff;
+	position: absolute;
+	left: -3px;
+	top: -73px;
+	right: 0;
+	width: 103%;	
+	@media only screen and (max-width:767px) {
+		height: 120px;
+		transform: rotate(-4deg);
+		background: #fff;
+		position: absolute;
+		left: -2px;
+		top: -73px;
+		right: 0;
+		width: 103%;
+		bottom: 0px;
+		background: #fff;	
+	}	
+	@media only screen and (max-width:991px) and (min-width:768px) {
+		height: 100px;
+    top: -60px;
+		z-index:0;
+	}	
+}
+.transformed-div-down {
+	height: 140px;
+	transform: rotate(4deg);
+	background: #fff;
+	position: absolute;
+	left: -2px;
+	top: 83%;
+	right: 0;
+	width: 103%;
+	bottom: 0px;
+	background: #fff;
+	z-index: 1;	
+	@media only screen and (max-width:767px) {
+		left: -5px;
+		bottom: 0px;
+		right: 0px;
+		width: 103%;
+		position: relative;
+		top: 37px;
+		z-index: 1;
+		height: 73px;
+		padding-bottom: 15px;		
+	}
+	@media only screen and (max-width:991px) and (min-width:768px) {
+		left: -2px;
+		top: 86%;
+		right: 0px;
+		width: 103%;
+		z-index: 1;
+	}
+}
+@media only screen and (max-width:767px) {
+	#banner {
+		padding-bottom: 145px;
+		overflow: visible;
+		&:before {
+			position: absolute;
+			content: '';
+			-webkit-transform: rotate(-5deg);
+			transform: rotate(-3deg);
+			-webkit-transform-origin: 3% 0;
+			transform-origin: 10% 0;
+			bottom: -36px;
+			height: 62px;
+			left: -25%;
+			width: 150%;
+			background: #fff;
+			z-index: 1;		
+		}
+	}
+	.off-canvas-list {
+		.right-submenu {
+			 a {
+				width: 225px;
+				overflow-wrap: break-word;
+			}
+		}
+	}	
+	#drupalcon-img-bg {
+		padding-top: 120px;
+		padding-bottom: 160px;
+	}
+	#client {	
+		padding-top: 0em;
+		.text-center{
+			margin-bottom:8px;
+			margin-top: 0px;
+		}		
+	}	
+	#flagship {
+		padding-top: 71px;
+		h2 {
+			margin-top: 60px;
+		}
+		.d-development {
+			padding-top: 230px;
+			background-size: 125px;
+		}
+		.d-migration {
+			padding-top: 230px;
+			background-size: 125px;
+		}	
+		.d-support {
+			padding-top: 230px;
+			background-size: 125px;
+		}		
+		p {
+			margin-bottom: 37px;
+		}	
+	}	
+	#move-drupal {		
+		h2 {
+			font-size: 2.08rem;
+		}
+		.line {
+			margin: 30px 0 30px;
+		}
+		.button {
+			margin-bottom: 7px;
+		}	
+	}
+	#in-touch {
+		padding-top: 145px;
+		padding-bottom: 115px;		
+		h2 {
+			margin-top:1px;
+		}	
+		.get_in {
+			padding-bottom:31px;
+		}
+	}	
+	#explore-drupal {
+		padding: 30px 0px 30px 0px;
+	}
+	#drupal-for {
+		padding-top: 145px;
+		padding-bottom: 160px;
+		h2 {
+			margin-top:0px;
+		}
+		.start {
+			padding-top: 200px;
+			background-size: 110px;
+		}
+		.migration {
+			padding-top: 200px;
+			background-size: 110px;
+		}
+		.enter {
+			padding-top: 200px;
+			background-size: 110px;
+		}
+	}	
+	#team {
+		margin-bottom:0px;
+		padding-top:15px;
+		.team {
+			margin-bottom:0px;
+			.button {
+				margin-bottom:8px;
+			}
+		}
+	}	
+	#page-contact {
+		margin-top:0px;
+		.get_in {
+			padding-bottom:135px;
+			.contact-message-feedback-form {
+				#contact-message-feedback-form {
+					.button {
+						bottom:-110px;
+					}
+				}
+			}
+			h2 {
+			  font-size: 2.688rem;
+		    position: relative;
+		    top: -15px;	
+	    }			
+		}	
+	}
+	#footer {
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	.home-quote {
+		p {
+			margin: 0em 0 2em !important;
+		}
+	}	
+}
+@media only screen and (max-width: 1023px) {
+	#drupalcon {
+		.drupalcon-row {
+			.drupalcon-col {
+				h1 {
+					margin-top: 0px;
+				}
+			}
+		}
+	}
+	.transformed-div-down {
+		z-index: 99;
+	}		
+}
+@media only screen and (max-width: 1440px) {
+	.transformed-div-down {
+		z-index: 99;
+	}		
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#drupalcon-img-bg {	
+    padding-top: 3rem;
+		.drupalcon-row {
+			margin: 30px auto 45px auto;
+			.text-tagline {
+				margin-top: 30px;
+			}			
+		}
+	}
+	#drupalcon {
+		.drupalcon-col {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+	}
+	#client {
+		article {
+			.button {
+				margin-bottom: 0px;
+			}
+		}
+		.home-quote {
+			p {
+				margin: 0.5em 0 2em !important;
+			}	
+		}
+	}
+	#flagship {
+		padding-top: 9.5rem;
+		padding-bottom: 8rem;
+	}
+	#in-touch {
+		padding-top: 145px;
+		padding-bottom: 115px;
+		.get_in {
+			position: relative;
+			padding-bottom: 30px;
+		}		
+	}
+	#explore-drupal {
+		padding: 30px 0px 30px 0px;
+	}	
+	#drupal-for {
+    padding-top: 150px;
+    padding-bottom: 165px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+	#drupalcon-img-bg {
+		padding-top: 5rem;
+		padding-bottom: 7rem;	
+		.drupalcon-row {
+			margin: 15px auto 45px auto;
+			.text-tagline {
+				margin-top: 15px;
+			}			
+		}
+	}
+	#drupalcon {
+		.drupalcon-col {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+	}
+	#client {
+		article {
+			.button {
+				margin-bottom: 15px;
+			}
+		}
+		.home-quote {
+			p {
+				margin: .5em 0 2em !important;
+			}	
+		}
+	}
+	#flagship {
+		padding-top: 9.5rem;
+		padding-bottom: 8rem;
+	}	
+	#in-touch {
+		padding-top: 145px;
+		padding-bottom: 115px;	
+		.get_in {
+			position: relative;
+			padding-bottom: 30px;
+		}		
+	}
+	#explore-drupal {
+		padding: 30px 0px 30px 0px;
+	}	
+}
+@media only screen and (min-width: 1400px) and (max-width: 1440px) {
+	#flagship {
+		padding-top: 6rem;
+		padding-bottom: 5rem;
+	}
+	#drupalcon {
+    z-index: 1;
+		.drupalcon-col {
+			padding-top: 15px;
+			padding-bottom: 0px;
+		}
+		.transformed-div-down {
+	    height: 140px;
+	    transform: rotate(4deg);
+	    background: #fff;
+	    position: absolute;
+	    left: -2px;
+	    top: 74%;
+	    right: 0;
+	    width: 103%;
+	    bottom: 0px;
+	    background: #fff;
+	    z-index: -1;
+		}	
+	}
+	#in-touch {
+		.get_in {
+		  position: relative;
+		  padding-bottom: 75px;
+		}
+	}
+	#drupalcon-img-bg {
+		.drupalcon-col {
+	    padding-top: 90px;
+	    padding-bottom: 65px;
+		}
+		.drupalcon-btn {
+	    margin-bottom: 30px;
+		}	
+	}
+}
+@media only screen and (min-width: 639px) and (max-width: 767px) {
+	#drupalcon-img-bg {
+		.drupalcon-row {
+			.text-tagline {
+				margin-top: 30px;
+			}			
+		}
+	}
+	#page-contact {
+	  margin-top: 15px;
+	}
+	#team {
+    padding-top: 20px;
+	}
+	#drupal-for {
+	  padding-bottom: 145px;
+	}	
+	#footer {
+		article {
+		  padding-top: 140px;
+		}
+	}
+	#move-drupal {
+	  padding-top: 30px;
+	}
+}
+@media only screen and (max-width: 639px) {
+	#drupalcon-img-bg {
+		.drupalcon-row {
+			.text-tagline {
+				margin-top: 60px;
+			}			
+		}
+	}
+	#flagship {
+	  padding-bottom: 130px;
+	}
+	#drupalcon {
+		.transformed-div-down {
+		  height: 116px;
+		}
+	}
+}
+@media only screen and (max-width: 420px) {
+  #explore-drupal {
+    padding: 0px;
+	}
+	#in-touch {
+    padding-top: 130px;
+	}
+	#team {
+	  padding-top: 0px;
+	}	
+	#move-drupal {
+	  padding: 0px 0px 15px 0px;
+	}	
+	#drupalcon-img-bg {
+		.drupalcon-row {
+			.text-tagline {
+    		margin-top: 25px;
+			}
+    }
+	}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+	#banner {
+		.get-started {
+			.dropdown-pane {
+		    margin-top: 18px;
+			}
+		}
+	}
+}
+@media only screen and (min-width:1366px) and (max-width:1399px){
+	#banner {
+		.get-started {
+			.dropdown-pane {
+		    margin-top: 25px;
+			}
+		}
+	}
+}
+@media only screen and (min-width:1024px) and (max-width:1366px){
+	#drupalcon {
+		.drupalcon-col {
+		  padding-top: 15px;
+		  padding-bottom: 15px;
+		}
+	}
+}
